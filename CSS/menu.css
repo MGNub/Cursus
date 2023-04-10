@@ -1,0 +1,125 @@
+body {
+  /* background : linear-gradient(to right, black, rgb(45, 48, 55) ,  rgb(67, 62, 62), rgb(110, 110, 110)); */
+}
+
+:root {
+  font-size: 16px;
+}
+
+#top-bar {
+  position: fixed;
+  border-bottom: solid;
+  color: rgb(220, 214, 214);
+  border-width: 1px;
+  border-radius: 100px;
+  padding-right: 71%;
+  z-index: 25;
+
+}
+
+#title {
+  color: white;
+  position: fixed;
+  margin-top: 3px;
+  margin-left: 2%;
+  font-size: 2.8rem;
+  font-weight: bolder;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.horizontal-menu {
+  position: relative;
+  padding-top: 3px;
+  display: flex;
+  margin-left: 195%;
+  width: 150%;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.active {
+  border-bottom: solid;
+  border-width: 2px;
+  border-radius: 2px;
+  text-shadow: 0 0 6px white;
+}
+
+.horizontal-menu a {
+  background-color: transparent;
+  color: white;
+  font-size: 2.3rem;
+  padding: 8px;
+  text-decoration: none;
+  flex: 1;
+  cursor: pointer;
+  text-align: center;
+}
+
+.horizontal-menu a:hover {
+  background-color: transparent;
+  transition-duration: 500ms;
+  text-shadow: 4px 3px 8px white;
+  background: linear-gradient();
+}
+
+#smallLogo {
+  position: relative;
+  top: 6px;
+  height: 42px;
+  margin-right: 9px;
+}
+
+canvas {
+  position: absolute;
+}
+
+#testing123 {
+  margin-top: 100px;
+}
+
+.hm {
+  user-select: none;
+  z-index: 10;
+}
+
+span {
+  background-color: transparent;
+  color: black;
+  padding: 8px;
+  text-decoration: none;
+  flex: 1;
+  text-align: center;
+}
+
+span ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+span ul li {
+  display: inline-block;
+  position: relative;
+}
+
+span ul li:hover>ul {
+  display: block;
+}
+
+span ul li ul {
+  display: none;
+  position: absolute;
+  top: 120%;
+  left: 0;
+  margin: 0;
+  padding: 0 10% 5% 10%;
+  width : 80%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid #ccc;
+}
+
+span ul li ul li {
+  display: block;
+  border-bottom : 0.01px solid rgb(155, 155, 155);
+}

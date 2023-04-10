@@ -1,0 +1,135 @@
+body {
+  background: linear-gradient(to right, black, rgb(45, 48, 55), rgb(67, 62, 62), rgb(110, 110, 110));
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+#smallLogo {
+  position: relative;
+  top: 6px;
+  height: 42px;
+  margin-right: 9px;
+}
+
+.Horizontal-Overflow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.card {
+  background-size: 100%;
+  background-position: center;
+  background-blend-mode: overlay;
+  position: relative;
+  margin: .5rem 0 1rem 00rem;
+  padding: 1rem;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  z-index: 3;
+}
+
+#card1 {
+  background-image: url("https://i.natgeofe.com/n/ad6a8ba9-414f-4f94-8d03-2387f1dbb1dd/philadelphia-travel.jpg?w=2880&h=1916");
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#card2 {
+  background-image: url("https://www.visitphilly.com/wp-content/uploads/2018/02/Schuylkill-Banks-Boardwalk-nighttime-skyline-m-edlow-2200VP.jpg");
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#card3 {
+  background-image: url("https://myphillypark.org/app/uploads/2022/08/IMG_6188_web.jpg");
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#card4 {
+  background-image: url("https://www.theconstitutional.com/sites/drupal.theconstitutional.com/files/Ben%20Franklin%20Bridge%20Pedestrian%20Walkway%205.jpg");
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#card5 {
+  background-image: url("https://www.visitphilly.com/wp-content/uploads/2017/12/BartramsGarden_R_Kennedy_10_2200x1237.jpg");
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+#card6 {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5a1b65dbc027d86156388afb/1605906082387-3UUD0BEBFL4V5C7812BB/97603435_4132742060130162_266925701981011968_o.jpg?format=1500w");
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#card7 {
+  background-image: url("https://images.fineartamerica.com/images-medium-large-5/philadelphias-rock-tunnel-kelly-drive-bill-cannon.jpg");
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#card8 {
+  background-image: url("https://myphillypark.org/app/uploads/2017/12/One-Fairmount-Park-Conservancy-drone-photo.jpg");
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.card p {
+  overflow: initial;
+  white-space: initial;
+  z-index: 3;
+  font-size: 2rem;
+  opacity: initial;
+}
+
+.card h2 {
+  overflow: initial;
+  white-space: initial;
+  z-index: 3;
+  font-size: 2.5rem;
+  opacity: initial;
+}
+
+.mainText {
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 35rem;
+  z-index: 5;
+  margin-left: 1rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  border-radius: 0.6rem;
+}
+
+right {
+  text-shadow: 0 0 6px white;
+}
+
+#fade {
+  position: fixed;
+  background: linear-gradient(0deg, transparent, transparent 85%, black);
+  padding-left: 100%;
+  padding-bottom: 100%;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  pointer-events: none;
+}
+
+.mainText {
+  top: 0;
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show {
+  transform: translate(0, 50%);
+  opacity: 1;
+}
+
+/*https://myphillypark.org/app/uploads/2018/03/Belmont-Plateau-May-31-to-June-4.jpg*/
+- Belmont plPteau
+/*https://images.squarespace-cdn.com/content/v1/5a1b65dbc027d86156388afb/1605906082387-3UUD0BEBFL4V5C7812BB/97603435_4132742060130162_266925701981011968_o.jpg?format=1500w - Card 6*/

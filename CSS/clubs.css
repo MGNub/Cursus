@@ -1,0 +1,205 @@
+:root {
+  --bg-color : rgb(20, 20, 20);
+  --bg-color2 : rgb(50, 55, 65);
+}
+
+body {
+  background-color : var(--bg-color);
+
+}
+
+div {
+  color : white;
+}
+
+/*Image Slideshow*/
+#sliderContainer {
+  margin : 0;
+  height : 600px;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+}
+
+.slider {
+  margin-top : 1.5rem;
+  height : 500px;
+  width : 800px;
+  overflow : hidden;
+}
+
+.slides {
+  display : flex;
+  height : 500px;
+  width : 500%;
+}
+
+.slides input {
+  display : none;
+}
+
+.slide {
+  display : flex;
+  justify-content : center;
+  width : 20%;
+  transition : 2s;
+  margin-right : 10%;
+}
+
+.slide img {
+  height : 100%;
+  width : auto;
+}
+
+.manual-scroll {
+  position : absolute;
+  width : 800px;
+  margin-top : -40px;
+  display : flex;
+  justify-content : center;
+}
+
+.manual {
+  border : 2px solid rgb(116, 116, 116);
+  padding : 5px;
+  border-radius : 10px;
+  cursor : pointer;
+  transition : 1s;
+}
+
+.manual:not(:last-child){
+  margin-right : 40px;
+}
+
+.manual:hover{
+  background : red;
+}
+
+#radio1:checked ~ .first{
+  margin-left : 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left : -30%;
+}
+
+#radio3:checked ~ .first{
+  margin-left : -60%;
+}
+
+#radio4:checked ~ .first{
+  margin-left : -90%;
+}
+
+#radio5:checked ~ .first{
+  margin-left : -120%;
+}
+
+.auto-scroll {
+  position : absolute;
+  display : flex;
+  justify-content : center;
+  width : 800px;
+  margin-top : 462px;
+  gap : 3px;
+}
+
+.auto-scroll div {
+  padding : 5px;
+  border-radius : 10px;
+  transition : 1s;
+}
+
+.auto-scroll div:not(:last-child) {
+  margin-right : 40px;
+}
+
+#radio1:checked ~ .auto-scroll .auto1 {
+  background : red;
+}
+
+#radio2:checked ~ .auto-scroll .auto2 {
+  background : red;
+}
+
+#radio3:checked ~ .auto-scroll .auto3 {
+  background : red;
+}
+
+#radio4:checked ~ .auto-scroll .auto4 {
+  background : red;
+}
+
+#radio5:checked ~ .auto-scroll .auto5 {
+  background : red;
+}
+
+/*sections*/
+h2 {
+  font-size : 2.5rem;
+  text-decoration : underline;
+  text-decoration-style : solid;
+}
+
+#section1 {
+  background-color : var(--bg-color2);
+  display : flex;
+  justify-content : center;
+  height : 25rem;
+}
+
+#text1 {
+  font-size : 1.5rem;
+  margin : 4rem 10rem 0 10rem;
+}
+
+#section2 {
+  display : flex;
+  background-color : var(--bg-color);
+  height : 40rem;
+}
+
+#section2 img {
+  margin-top : 10rem;
+  height : 50%;
+}
+
+#text2 {
+  font-size : 1.3rem;
+  margin : 5rem 10rem 0 10rem;
+  width : 40%;
+}
+
+#section3 {
+  display : flex;
+  background-color : var(--bg-color2);
+  height : 40rem;
+}
+
+#text3 {
+  font-size : 1.3rem;
+  margin : 3rem 0rem 0 0rem;
+  width : 40%;
+}
+
+#section3 img {
+  margin : 10rem 10rem 0 10rem;
+  height : 60%;
+}
+
+#section4 {
+  display : flex;
+  background-color : var(--bg-color);
+  height : 40rem;
+}
+
+#section4 img {
+  margin-top : 10rem;
+  height : 50%;
+}
+
+#text4 {
+  font-size : 1.3rem;
+  margin : 5rem 5rem 0 10rem;
+  width : 40%;
+}

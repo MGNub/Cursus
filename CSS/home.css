@@ -1,0 +1,124 @@
+#home-bar {
+  background : rgb(20, 20, 20);
+  position : fixed;
+  border-bottom : solid;
+  padding-top : 4px;
+  color : rgb(220, 214, 214);
+  border-width : 1px;
+  padding-right : 71%;
+  z-index : 3;
+  top : 0;
+  left : 0;
+}
+
+.horizontal-menu a {
+  background-color: transparent;
+  color: white;
+  font-size: 2.3em;
+  padding: 8px;
+  text-decoration: none;
+  flex: 1;
+  /* Set equal width to all links */
+  text-align: center;
+  /* Center the text in the links */
+}
+
+#title {
+  color : white;
+  margin-top: 3px;
+  margin-left : 2%;
+  font-size : 2.8em;
+  font-weight : bolder;
+  text-decoration : none;
+}
+
+#homeText {
+  position: fixed;
+  top: 11%;
+  left: 60%;
+  color: white;
+  width: 30%;
+  height  : 90%;
+  padding-left : 5%;
+}
+
+#homeText:hover {
+  transition-duration : 500ms;
+}
+
+h1 {
+  position : relative;
+  font-size: 4.5em;
+  top : 2.3rem;
+}
+
+p {
+  position: relative;
+  top: 0rem;
+  font-size: 1.5em;
+}
+
+#bigLogo {
+  position: relative;
+  top: 6px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+#buttonAlign {
+  display: flex;
+  justify-content: center;
+}
+
+#join {
+  position: relative;
+  top: 0;
+  padding: 25px 80px 25px 80px;
+  background-color: rgb(224, 228, 0);
+  border-radius : 40px;
+  border : solid;
+  border-width : 4px;
+  border-color : rgb(243, 255, 178);
+  color : black;
+  font-weight : bolder;
+  box-shadow : 0px 3px 8px rgb(181, 201, 2);
+}
+
+#fade {
+  position : fixed;
+  background : linear-gradient(0deg, transparent, transparent 85%, black);
+  padding-left : 100%;
+  padding-bottom : 100%;
+  top : 0;
+  left : 0;
+  z-index : 1;
+  pointer-events : none;
+}
+
+#sidefade {
+  position : fixed;
+  background : linear-gradient(90deg,transparent, transparent 65%, black);
+  padding-left : 99.5%;
+  padding-bottom : 100%;
+}
+
+#fade2 {
+  position : fixed;
+  background : linear-gradient(0deg, transparent, transparent 94%, black);
+  padding-left : 100%;
+  padding-bottom : 100%;
+  top : 8%;
+  left : 0;
+  z-index : 1;
+  pointer-events : none;
+}
+
+video {
+  position: fixed;
+  object-fit: fill;
+  width: 100%;
+  max-height: 100%;
+  top: 0;
+  left: 0;
+}
+
