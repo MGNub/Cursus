@@ -89,16 +89,16 @@ body {
   position: absolute;
   font-size: 1.25rem;
   top: 33%;
-  transform: translateY(-50%);
+  transform: translateY(-250%);
 }
 
 #left {
-  left: 15px;
+  left: 10%;
   z-index: 5;
 }
 
 #right {
-  right: 15px;
+  right: 10%;
 }
 
 .section2 {
@@ -108,15 +108,21 @@ body {
   border-style: solid none solid none;
   border-color: rgba(187, 255, 249, 0.9);
   border-width: 4px;
-  background: url("https://img.freepik.com/free-vector/gradient-dark-dynamic-lines-background_23-2148995950.jpg");
+  background: url("../Images/runningBG.avif");
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
+.section2 h1 {
+  font-size : 2.8rem;
+}
+
 .section2 h2 {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   padding: 2rem 0 2rem;
   text-align: center;
+  margin : 0.5rem;
+  padding-bottom : 0.5rem;
 }
 
 .section2 p {
@@ -168,19 +174,25 @@ body {
 
 /*Section2 - Carousel*/
 /*Section 3*/
-.section3 {}
+.section3 {
+  display : flex;
+  flex-direction : column;
+  align-items : center;
+  padding : 2rem 0 2rem 0;
+}
 
-.section3 h2,
-p {
+.section3 h2, p {
   text-align: center;
 }
 
 .section3 p {
   font-size: 1.5rem;
+  width : 80%;
 }
 
 .section3 h2 {
   font-size: 2.5rem;
+  margin-bottom : 1rem;
 }
 
 /*Section 4 - Icons w/ Text*/
@@ -236,7 +248,7 @@ p {
 }
 
 .bubble1 {
-  background: url("https://www.transparentpng.com/thumb/water-bottle/u0q5Go-water-bottle-clipart-png-photos.png");
+  background: url("../Images/waterbottle.png");
   background-position: center;
   background-size: 90%;
   background-color: rgb(255, 197, 71);
@@ -245,7 +257,7 @@ p {
 
 .bubble2 {
   margin-left: -2rem;
-  background: url("https://www.sfusd.edu/sites/default/files/styles/max_635/public/exercising-clipart-exercise-man-exercise-cartoon-png-download.png?itok=E7myVk9F");
+  background: url("../Images/stretching.png");
   background-position: center;
   background-size: 43%;
   background-repeat: no-repeat;
@@ -253,7 +265,7 @@ p {
 }
 
 .bubble3 {
-  background: url("https://github.com/MGNub/CursusFinal/Images/runningshoes.png");
+  background: url("../Images/running-shoes.png");
   background-position: center;
   background-size: 110%;
   background-repeat: no-repeat;
@@ -261,7 +273,7 @@ p {
 }
 
 .bubble4 {
-  background: url("https://static.vecteezy.com/system/resources/previews/018/869/038/original/traffic-light-transparent-background-png.png");
+  background: url("../Images/trafficLight.webp");
   margin-left: -2rem;
   background-position: center;
   background-size: 85%;
@@ -273,7 +285,7 @@ p {
 .section5 {
   text-align: center;
   padding-bottom: 11rem;
-  background: url("https://marathonhandbook.com/wp-content/uploads/2022/06/10k-in-50-minutes-10.jpg");
+  background: url("../Images/running-legs.jpg");
   background-size: 100%;
   background-color: rgba(0, 0, 0, 0.85);
   background-blend-mode: overlay;

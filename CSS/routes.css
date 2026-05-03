@@ -54,6 +54,7 @@ body {
   background-blend-mode : overlay;
   background-color : rgba(0, 0, 0, 0.05);
   scroll-snap-align : center;
+  user-select : none;
 }
 
 .hold {
@@ -91,36 +92,36 @@ body {
 }
 
 #route1 {
-  background-image : url("https://i.natgeofe.com/n/ad6a8ba9-414f-4f94-8d03-2387f1dbb1dd/philadelphia-travel.jpg?w=2880&h=1916");
+  background-image : url("../Images/route1.avif");
   object-fit: fill;
 }
 
 #route2 {
-  background-image : url("https://www.visitphilly.com/wp-content/uploads/2018/02/Schuylkill-Banks-Boardwalk-nighttime-skyline-m-edlow-2200VP.jpg");
+  background-image : url("../Images/route2.jpg");
 }
 
 #route3 {
-  background-image : url("https://myphillypark.org/app/uploads/2022/08/IMG_6188_web.jpg");
+  background-image : url("../Images/route3.jpg");
 }
 
 #route4 {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/95/BenjaminFranklinBridgeAtNight2.jpg");
+  background-image: url("../Images/route4.jpg");
 }
 
 #route5 {
-  background-image: url("https://www.visitphilly.com/wp-content/uploads/2017/12/BartramsGarden_R_Kennedy_10_2200x1237.jpg");
+  background-image: url("../Images/route5.jpg");
 }
 
 #route6 {
-  background-image: url("https://images.squarespace-cdn.com/content/v1/5a1b65dbc027d86156388afb/1605906082387-3UUD0BEBFL4V5C7812BB/97603435_4132742060130162_266925701981011968_o.jpg?format=1500w");
+  background-image: url("../Images/route6.webp");
 }
 
 #route7 {
-  background-image: url("https://images.fineartamerica.com/images-medium-large-5/philadelphias-rock-tunnel-kelly-drive-bill-cannon.jpg");
+  background-image: url("../Images/route7.jpg");
 }
 
 #route8 {
-  background-image: url("https://myphillypark.org/app/uploads/2017/12/One-Fairmount-Park-Conservancy-drone-photo.jpg");
+  background-image: url("../Images/route8.jpg");
 }
 
 .fades {

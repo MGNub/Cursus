@@ -151,25 +151,25 @@ h3 {
 }
 
 .clothes1 {
-  background: url("https://static.nike.com/a/images/w_1920,c_limit/3197962b-884d-453b-b8cd-897df77aba1f/what-to-wear-running-in-different-temperatures.jpg");
+  background: url("../Images/clothes1.jpg");
   background-size: cover;
   background-blend-mode: overlay;
 }
 
 .clothes2 {
-  background: url("https://static01.nyt.com/images/2020/11/22/multimedia/22ah-winterrunning/22ah-winterrunning-superJumbo.jpg");
+  background: url("../Images/clothes2.jpg");
   background-size: cover;
   background-blend-mode: overlay;
 }
 
 .clothes3 {
-  background: url("https://kdhevents.com/wp-content/uploads/2017/12/outdoor-living.jpg");
+  background: url("../Images/clothes3.jpg");
   background-size: cover;
   background-blend-mode: overlay;
 }
 
 .clothes4 {
-  background: url("https://cdn.fleetfeet.com/assets/Blog/Post-Images/Spring-Training.jpeg/dynamic:1-aspect:1.5005359056806-fit:cover-strategy:entropy/Spring-Training--1440.jpg");
+  background: url("../Images/clothes4.jpg");
   background-size: cover;
   background-blend-mode: overlay;
 }
@@ -231,6 +231,10 @@ h3 {
   overflow: hidden;
 }
 
+.accessoriesPage p {
+  user-select : none;
+}
+
 #trackBar {
   height: 5px;
   width: 100%;
@@ -274,6 +278,12 @@ h3 {
   height: 56vmin;
   object-fit: cover;
   object-position: center;
+}
+
+.image {
+  user-select : none;
+  pointer-events : none;
+  -webkit-user-drag: none;
 }
 
 #image-track {
@@ -430,7 +440,7 @@ h3 {
 
 .card:nth-child(1) {
   grid-area: Gear1;
-  background: url("https://us.123rf.com/450wm/pavelshlykov/pavelshlykov2301/pavelshlykov230100563/197145886-close-up-low-angle-view-of-running-shoes-with-while-soles-on-an-empty-road-as-the-sun-highlights-the.jpg?ver=6");
+  background: url("../Images/gear-card1.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   animation-delay: calc(2 * var(--stagger-delay));
@@ -439,7 +449,7 @@ h3 {
 
 .card:nth-child(2) {
   grid-area: Gear2;
-  background: url("https://media.istockphoto.com/id/466367844/photo/clothes-make-running.jpg?s=612x612&w=0&k=20&c=eGOSP7X2MoXpGKhv8a3UlYHplvKvIIdUPmVKBSd3bMI=");
+  background: url("../Images/gear-card2.jpg");
   background-size: 100%;
   background-color: rgba(0, 0, 0, 0.3);
   animation-delay: calc(3 * var(--stagger-delay));
@@ -447,7 +457,7 @@ h3 {
 
 .card:nth-child(3) {
   grid-area: Gear3;
-  background: url("https://hips.hearstapps.com/hmg-prod/images/running-socks-1563200999.jpg?crop=1.00xw:0.889xh;0,0.111xh&resize=1200:*");
+  background: url("../Images/gear-card3.avif");
   background-size: 100%;
   background-color: rgba(0, 0, 0, 0.3);
   animation-delay: calc(5 * var(--stagger-delay));
@@ -455,7 +465,7 @@ h3 {
 
 .card:nth-child(4) {
   grid-area: Gear4;
-  background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-gps-running-watches-refresh-lead-1665522594.jpg?crop=1xw:1xh;center,top&resize=1200:*");
+  background: url("../Images/gear-card4.avif");
   background-size: 100%;
   animation-delay: calc(4 * var(--stagger-delay));
   background-color: rgba(0, 0, 0, 0.2);

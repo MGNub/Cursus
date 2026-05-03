@@ -77,7 +77,7 @@ div {
 
 #introCard {
   position : absolute;
-  background : url("https://photos-images.active.com/file/3/1/original/81/e8/81e86557-e999-4e02-8ceb-21a86cd0c4bb.jpg");
+  background : url("../Images/events-bg.jpg");
   background-size : 180%;
   background-blend-mode : overlay;
   background-color : rgba(0, 0, 0, 0.1);
